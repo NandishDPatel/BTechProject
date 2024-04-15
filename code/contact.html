@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/media.css">
+    
+    <title>Contact Page</title>
+  </head>
+  <body>
+ 
+    <div class="header">
+      <div class="blank1"></div>
+      <div class="h signIn"><i class="fa-solid fa-unlock"></i><button id="signInButton">Sign In</button></div>
+      <div class="h signUp">
+        <i class="fa-solid fa-pen-to-square"></i><button id="signUpButton">Sign Up</button>
+      </div>
+      <div class="h call">
+        <i class="fa-solid fa-phone"></i> Contact : 9978888520
+      </div>
+      <div class="h mail">
+        <i class="fa-regular fa-envelope"></i> eshoppy@info.com
+      </div>
+      <div class="blank2"></div>
+    </div>
+      <div class="subheader">
+        <div class="sub search">
+          <input type="text" placeholder="Search Here..." />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="sub company">
+          <span>E</span> Shopp
+          <p>y<i class="fa-solid fa-bag-shopping"></i></p>
+        </div>
+        <div class="sub sharing">
+          Share On :
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="submenu">
+          <div class="list">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="men.html">Men's Wear</a></li>
+              <li><a href="women.html">Women's Wear</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="cart">
+            <a href="addtocart.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
+          </div>
+        </div>
+      </div>
+
+    <div class="contact_content">
+      <div class="contact_content1">
+        <div class="about">
+            <h1>CONTACT <p>US</p></h1>
+        </div>
+      </div>
+      <div class="contact_content2">
+        <div class="c">
+          <div class="cc c1">
+            <div class="icon">
+                <i class="fa-solid fa-location-dot fa-3x"></i>
+            </div>
+            <div class="heading">ADDRESS</div>
+            <div class="detail1">Manek chowk, New Delhi, India</div>
+          </div>
+          <div class="cc c2">
+            <div class="icon">
+                <i class="fa fa-phone fa-3x"></i>
+            </div>
+            <div class="heading">CALL US</div>
+            <div class="detail1">+1234 758 839</div>
+          </div>
+          <div class="cc c3">
+            <div class="icon">
+                <i class="fa-solid fa-envelope fa-3x"></i>
+            </div>
+            <div class="heading">EMAIL</div>
+            <div class="detail1">e-shoppy@info.com</div>
+          </div>
+        </div>
+      </div>
+      <div class="contact_content3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3677405.42637955!2d72.56864600966885!3d25.829419038640985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d23.049221!2d72.55596299999999!4m5!1s0x390cfd1a5b717663%3A0xb4f8cbd65fac0ab3!2s2045%2C%20Manak%20Chand%20Jain%2C%202013%2C%20Kinari%20Bazar%20Rd%2C%20Katra%20Shah%20N%20Shah%2C%20Chandni%20Chowk%2C%20New%20Delhi%2C%20Delhi%20110006!3m2!1d28.655662999999997!2d77.230749!5e0!3m2!1sen!2sin!4v1677665070081!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="contact_content4">
+        <div class="form">
+            <h1>CONTACT <p>FORM</p></h1>
+            <div class="fc name">
+                <input class="inp" type="text" placeholder="Name" id="nm" onblur="chkNm()"><span class="hidden" id="sp1"></span>
+            </div>
+            <div class="fc email">
+                <input class="inp" id="em" type="text" placeholder="Email" onblur="chkEm()"><span class="hidden"></span>
+            </div>
+            <div class="fc message">
+              <input class="inp" id="call" type="text" placeholder="Contact" onblur="chkMb()"><span class="hidden"></span>
+          </div>
+            <div class="fc subject">
+                <input class="inp" type="text" placeholder="Subject"><span class="hidden"></span>
+            </div>
+            
+            <div class="send">
+              <input type="button" id="sendButton"  value="Send" onclick="checkFields()">
+              <!-- onclick="clickForm(sendButton)" -->
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+        <div class="f eliteShoppy">
+          <h1>E-Shoppy</h1>
+          <div class="info">
+            EShoppy is a software application that enables online commerce for
+            merchants and consumers. Ecommerce platforms can manage web hosting,
+            inventory management, payment processing, marketing, order
+            fulfillment, and more.
+          </div>
+          <div class="logos">
+            <ul>
+              <li>
+                  <a href=https://www.facebook.com/">
+                <i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                  <a href="https://twitter.com/">
+                <i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://instagram.com/">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="f information">
+          <h2>OUR INFORMATION</h2>
+          <div class="list">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="men.html">Men's Wear</a></li>
+              <li><a href="women.html">Women's Wear</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="addtocart.html">My Cart</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="f store">
+          <h2>STORE INFORMATION</h2>
+          <div class="row">
+            <div class="icon">
+              <i class="fa fa-phone"></i>
+            </div>
+            <div class="content">
+              <h3>Phone Number</h3>
+              <div class="info">+1 234 567 8901</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="icon">
+              <i class="fa fa-envelope"></i>
+            </div>
+            <div class="content">
+              <h3>Email Address</h3>
+              <div class="info">Email : <span>mail@example.com</span></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="icon">
+              <i class="fa fa-map-location"></i>
+            </div>
+            <div class="content">
+              <h3>Location</h3>
+              <div class="info">Broome St, NY 10002,California, USA.</div>
+            </div>
+          </div>
+        </div>
+        <div class="f posts">
+          <h2>Customer Posts</h2>
+          <div class="row">
+            <div class="img">
+              <img
+                src="images/home_page/01_footer_2.jpg"
+                height="100%"
+                width="100%"
+              />
+            </div>
+            <div class="img i2">
+              <img
+                src="images/home_page/01_footer_3.jpg"
+                height="100%"
+                width="100%"
+              />
+            </div>
+            <div class="img i3">
+              <img
+                src="images/home_page/01_footer_4.jpg"
+                height="100%"
+                width="100%"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="img i3">
+              <img
+                src="images/home_page/01_footer_1.jpg"
+                height="100%"
+                width="100%"
+              />
+            </div>
+            <div class="img i1">
+              <img
+                src="images/home_page/01_footer_2.jpg"
+                height="100%"
+                width="100%"
+              />
+            </div>
+            <div class="img i2">
+              <img
+                src="images/home_page/01_footer_3.jpg"
+                height="100%"
+                width="100%"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="img">
+              <img
+                src="images/home_page/01_footer_3.jpg"
+                height="100%"
+                width="100%"
+              />
+            </div>
+            <div class="img">
+              <img
+                src="images/home_page/01_footer_4.jpg"
+                height="100%"
+                width="100%"
+              />
+            </div>
+            <div class="img">
+              <img
+                src="images/home_page/01_footer_1.jpg"
+                height="100%"
+                width="100%"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="goToTop" href="#"><div class="toTop"><i class="fa-solid fa-arrow-up"></i></div></a> 
+
+    <!-- Sign In/Sign Up form Starts -->
+    <div class="sIn" id="signIn1">
+      <i class="fa fa-user userSym" aria-hidden="true"></i>
+      <i class="fas fa-window-close"   onclick="closeClk(signIn1)"></i>
+      <h2>Sign In</h2>
+      <div class="name">
+        <div class="left">
+          <i class="fa fa-user" aria-hidden="true"></i>
+        </div>
+        <div class="right">
+          <input type="text" value="Username" id="siNm" >
+        </div>
+      </div>
+      <div class="pass" id="siPass">
+        <div class="left">
+          <i class="fa fa-lock" aria-hidden="true"></i>
+        </div>
+        <div class="right">
+          <input type="password" value="Password" id="siPas">
+          <i class="fa fa-eye" id="sInEye1" aria-hidden="true" onclick="showE1()"></i>
+          <i class="fa fa-eye-slash" id="sInEye2" aria-hidden="true" onclick="showE2()"></i>
+        </div>
+      </div>
+      <button class="sub" type="submit" id="lg" onclick="loginClk(lg)">Login</button>
+      <div class="lastLine">
+          <div class="first">
+            <input type="checkbox" name="chk" id="">
+            Remember Me
+          </div>
+          <div class="second">
+            Forgot Password?
+          </div>
+        </div>
+    </div>
+    <div class="sUp" id="signUp1">
+      <i class="fas fa-window-close"  onclick="closeClk(signUp1)"></i>
+      <h2>CREATE ACCOUNT</h2>
+      <div class="name">
+        <div class="left">
+          <i class="fa fa-user" aria-hidden="true"></i>
+        </div>
+        <div class="right">
+          <input type="text" value="Username" id="supNm" onclick="sInClicked(supNm)">
+        </div>
+      </div>
+      <div class="pass email">
+        <div class="left">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        </div>
+        <div class="right">
+          <input type="email" value="Email" id="supEm" onclick="sInClicked(supEm)">
+        </div>
+      </div>
+      <div class="pass password">
+        <div class="left">
+          <i class="fa fa-lock" aria-hidden="true"></i>
+        </div>
+        <div class="right">
+          <input type="text" value="Password" id="supPass" onclick="sInClicked(supPass)">
+          <i class="fa fa-eye" id="sUpEye1" aria-hidden="true" onclick="eyeClckd1()"></i>
+          <i class="fa fa-eye-slash" id="sUpCrEye1" aria-hidden="true" onclick="eyeClckd1()"></i>
+
+        </div>
+      </div>
+      <div class="name confPass">
+        <div class="left">
+          <i class="fa-solid fa-key"></i>
+        </div>
+        <div class="right">
+          <input type="text" value="Confirm Password" id="supCnfPass" onclick="sInClicked(supCnfPass)">
+          <i class="fa fa-eye" id="sUpEye2" aria-hidden="true" onclick="eyeClckd2()"></i>
+          <i class="fa fa-eye-slash" id="sUpCrEye2" aria-hidden="true" onclick="eyeClckd2()"></i>
+        </div>
+      </div>
+      <button class="sub" type="submit" id="sUpBtn" onclick="sUClk()">Sign Up</button>
+    </div>
+
+      <script src="js/contact.js"></script>
+      <script src="js/home.js"></script>
+  </body>
+</html>

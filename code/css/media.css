@@ -1,0 +1,419 @@
+@media (max-width: 500px) {
+  /* ======================= HOME PAGE ========================= */
+  /* ------------------ Comman Header --------- */
+  .header {
+    width: 100%;
+  }
+  .header .blank1 {
+    display: none;
+  }
+  .header .signIn {
+    width: 100%;
+  }
+  .header .signUp {
+    width: 100%;
+  }
+  .header .call {
+    width: 100%;
+  }
+  .header .mail {
+    width: 100%;
+  }
+  .header .blank2 {
+    display: none;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+  .subheader .search {
+    width: 100%;
+  }
+  .subheader .company {
+    width: 100%;
+  }
+  .subheader .sharing {
+    width: 100%;
+  }
+
+  .menu .submenu .list {
+    width: 100%;
+  }
+  .menu .submenu .list li {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 5px 0px;
+  }
+  .menu .submenu .cart {
+    width: 50%;
+    margin: auto;
+  }
+
+  .banner {
+    width: 100%;
+  }
+  .banner h1 {
+    width: 100%;
+    margin: auto;
+    font-size: 25px;
+  }
+  .banner h1 span {
+    font-size: 30px;
+  }
+  .banner .shopNow {
+    width: 20%;
+  }
+
+  .twoImages {
+    padding: 0px;
+  }
+  .twoImages a {
+    width: 100%;
+  }
+  .twoImages .img {
+    margin: 20px 0px;
+  }
+  .twoImages .img .newArrivals {
+    padding: 90px 10px 120px 150px;
+  }
+
+  .saveBanner {
+    width: 100%;
+  }
+  .saveBanner .x {
+    width: 100%;
+  }
+  .saveBanner .information {
+    padding: 20px;
+  }
+
+  .trending .inside {
+    width: 100%;
+  }
+  .trending .inside .images .image1 {
+    height: 500px;
+    width: 450px;
+  }
+  .trending .inside .images .hidden {
+    padding: 120px 0px 50px 210px;
+  }
+  .trending .inside .images .image1 .hidden {
+    padding: 130px 20px 240px 180px;
+  }
+  .trending .inside .images .image2 {
+    width: 194%;
+  }
+  .trending .inside .images .image3 {
+    width: 194%;
+  }
+
+  .fullBanner {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .fullBanner .x {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .fullBanner .x .offer {
+    left: 20px;
+  }
+
+  .newArrivals {
+    width: 100%;
+  }
+  .newArrivals .title {
+    grid-template-columns: 1fr;
+  }
+  .newArrivals .title .section {
+    margin-bottom: 10px;
+  }
+  .newArrivals .row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .backgroundClip {
+    width: 100%;
+  }
+  .backgroundClip .shopNow {
+    width: 20%;
+  }
+  .icons {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .icons .icon {
+    width: 90%;
+    margin-bottom: 9px;
+    height: 80px;
+  }
+  .icons .icon .symbol {
+    width: 80px;
+  }
+  .icons .icon .symbol i {
+    padding: 25px;
+  }
+
+  /* ------------------ Comman Footer --------- */
+  .footer {
+    width: 100%;
+    padding: 10px;
+  }
+  .footer .f {
+    width: 100%;
+  }
+  .footer .eliteShoppy h1 {
+    margin-bottom: 10px;
+  }
+  .footer h2 {
+    margin: 0px;
+  }
+  .footer .posts .row {
+    width: 100%;
+  }
+  .footer .posts .row .img {
+    width: 33%;
+    height: auto;
+  }
+
+  /* ======================= MEN PAGE ========================= */
+  .men_content2 {
+    background-color: yellow;
+  }
+  .men_content2 img {
+    width: 100%;
+    background: palegreen;
+  }
+  .men_content3 {
+    width: 100%;
+    padding: 20px;
+    height: auto;
+  }
+  .men_content3 .photo1 {
+    width: 100%;
+  }
+  .men_content3 .desc1 {
+    width: 100%;
+    padding: 10px;
+  }
+  .men_content4 .o {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* ======================= WOMEN PAGE ========================= */
+  .women_content2 {
+    width: 100%;
+  }
+  .women_content2 img {
+    width: 90%;
+  }
+  .women_content3 {
+    width: 80%;
+  }
+  .women_content3 .photo1 {
+    width: 100%;
+  }
+  .women_content3 .desc1 {
+    width: 100%;
+    padding: 10px;
+  }
+  .women_content4 {
+    width: 100%;
+    padding: 10px;
+  }
+  .women_content4 .o {
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+  }
+  .product_image {
+    width: auto;
+  }
+  .product_top {
+    padding: 25px;
+  }
+  .product_back {
+    width: 170px;
+  }
+  .product_bottom li {
+    margin: 15px;
+  }
+  .product_cart {
+    margin: auto 20px;
+  }
+  .product_cart:hover .innercart {
+    transform: scale(1.5);
+  }
+
+  /* ======================= ABOUT PAGE ========================= */
+  .description1 {
+    width: 100%;
+    grid-template-columns: 1fr;
+    /* padding: 10px; */
+  }
+  .teamgrid {
+    grid-template-rows: auto;
+  }
+  .members .imgBack h1 {
+    font-size: 20px;
+  }
+  .members .imgBack h3 {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .members {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* ======================= CONTACT PAGE ========================= */
+
+  .c {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+  .cc {
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .c .cc {
+    margin: 10px 0px;
+  }
+  .contact_content4 {
+    width: 100%;
+    padding: 10px;
+  }
+  .form {
+    width: 100%;
+  }
+
+  /*---------------add to cart page--------------------------*/
+  .cartContent {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .cartContent .left {
+    width: 100%;
+    padding: 0px;
+  }
+  .cartContent .left .products hr {
+    width: 90%;
+    margin: auto;
+  }
+  .cartContent .left .products .item .photo {
+    height: auto;
+    margin-right: 10px;
+  }
+  .cartContent .left .products .item .content {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .cartContent .left .products .item .content .col1,
+  .col2 {
+    margin-left: 10px;
+    width: 100%;
+  }
+  .cartContent .left .products .item .content .col3,
+  .col4 {
+    margin-left: 10px;
+    width: 100%;
+  }
+  .cartContent .left .totalItems {
+    margin: 0px;
+    margin-left: 30px;
+    margin-right: 90px;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .cartContent .right {
+    width: 100%;
+    height: auto;
+  }
+  .cartContent .right .promoCode .top {
+    margin: 20px 0px;
+    margin-left: 65px;
+  }
+  .cartContent .right .priceData .row {
+    margin: 10px 65px;
+  }
+
+  /* ---------- Sign In/Sign Up form -------- */
+  .sIn,
+  .sUp {
+    width: 360px;
+    height: auto;
+    top: 150px;
+    left: 70px;
+    margin: auto;
+  }
+  .sUp {
+    top: 100px;
+  }
+  .sIn .userSym,
+  .sUp .userSym {
+    left: 150px;
+  }
+  .sIn .left i,
+  .sUp .left i {
+    padding: 20px;
+  }
+
+  /* ---- PreviewBox in responsive ------- */
+  .products-preview {
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+  }
+  .products-preview .fas{
+    right: 20px;
+    top: 10px;
+  }
+  .products-preview .preview .content{
+    width: 475px;
+    height: 90vh;
+  }
+  .products-preview .preview .content .left{
+    width: 100%;
+    margin: auto;
+    height: 300px;
+  }
+  .products-preview .preview .content .right{
+    width: 100%;
+    padding-top: 5px;
+    margin: auto;
+  }
+  .products-preview .preview .content .right h2{
+    font-size: 25px;
+    margin: 2px 0px;
+  }
+  .products-preview .preview .content .right .price{
+    font-size: 20px;
+    margin: 2px 0px;
+  }
+  .products-preview .preview .content .right .cutPrice{
+    font-size: 16px;
+  }
+  .products-preview .preview .content .right .size{
+    margin:0px;
+    /* text-align: left; */
+  }
+  .products-preview .preview .content .right .size li{
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    font-size: 14px;
+  }
+  .products-preview .preview .content .right .addToCart{
+    width: 320px;
+    margin: 5px auto;
+    padding: 10px;
+  }
+  .products-preview .preview .content .right .buyNow{
+    width: 320px;
+    padding: 10px;
+  }
+  /* ---- Contact Form Red colour Span Tag Error ------- */
+  .form span {
+    top: 15px;
+    right: 10px;
+  }
+}
