@@ -27,13 +27,15 @@
     width: 100%;
   }
   .subheader .search {
-    width: 100%;
+    /* width: 100%; */
+    display: none;
   }
   .subheader .company {
     width: 100%;
   }
   .subheader .sharing {
-    width: 100%;
+    /* width: 100%; */
+    display: none;
   }
 
   .menu .submenu .list {
@@ -416,4 +418,14 @@
     top: 15px;
     right: 10px;
   }
+}
+
+/* ------------------ 2nd time giving media queries -------------- */
+@media (max-width: 1000px) {
+  .subheader .search{
+    display: none;
+  }
+  /* .subheader .sharing{
+    display: none;
+  } */
 }

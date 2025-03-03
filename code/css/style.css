@@ -50,6 +50,22 @@
 .header .blank2 {
   width: 16.66%;
 }
+/* ------------- Customised Navbar using bootstrap ----------- */
+nav a{
+  border-bottom: 2px solid white;
+  padding: 2px 3px;
+}
+nav li{
+  /* border-left: 1px solid white; */
+  /* padding: 0px 5px; */
+}
+nav a:hover{
+  background: grey;
+}
+nav .navbar-toggler:hover{
+  background: #2fdab8;
+}
+
 /*------------- Subheader Starts ---------------------*/
 .subheader {
   display: flex;
