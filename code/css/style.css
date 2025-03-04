@@ -1832,61 +1832,53 @@ strike {
 .cartContent {
   display: flex;
   flex-wrap: wrap;
-  margin: 50px 0px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  margin: auto;
 }
 .cartContent .left {
-  width: 65%;
-  padding: 10px 30px;
+  padding: 10px;
+  margin: auto;
 }
 .cartContent .left .products {
   display: grid;
+
 }
 .cartContent .left .products .item {
   display: flex;
+  align-items: start;
+  gap: 10px
 }
 .cartContent .left .products .item .photo {
   height: 250px;
   width: 200px;
-  margin: 10px 0px;
 }
 .cartContent .left .products .item .content {
-  width: 70%;
+  display: flex;
+  gap: 50px;
+}
+.cartContent .left .products .item .content .desc{
   display: grid;
-  grid-template-columns: 3fr 2fr 2fr 2fr;
-  margin: 20px;
+  gap: 15px;
 }
-.cartContent .left .products .item .content .col {
-  margin: 0px 40px;
+.cartContent .left .products .item .content .desc .pName{
+  color: #2fdab8;
+  font-weight: 700;
 }
-.cartContent .left .products .item .content .col1 div {
-  margin-bottom: 15px;
+.cartContent .left .products .item .content .desc .stock{
+  color: #2fdab8;
+  border-bottom: 1px solid black;
+  font-weight: 500;
 }
-.cartContent .left .products .item .content .col1 .pName {
-  font-weight: 600;
-}
-.cartContent .left .products .item .content .col1 .x {
-  color: gray;
-}
-.cartContent .left .products .item .content .col2 div {
-  margin-bottom: 15px;
-}
-.cartContent .left .products .item .content .col2 .price {
-  font-weight: 550;
-}
-.cartContent .left .products .item .content .col3 div {
-  margin-bottom: 15px;
-}
-.cartContent .left .products .item .content .col4 div {
-  margin-bottom: 15px;
+.cartContent .left .products .item .content .pTotal{
+  color: #2fdab8;
 }
 
 .cartContent .left .totalItems {
   display: flex;
-  margin-left: 250px;
-  margin-right: 130px;
-  margin-top: 20px;
   font-size: 23px;
   justify-content: space-between;
+  margin: 0px 40px;
 }
 .cartContent .left .totalItems .numberOfItems {
   font-weight: 600;
@@ -1897,34 +1889,32 @@ strike {
 }
 /*==========Cart Content - Right Side ===========*/
 .cartContent .right {
-  width: 35%;
+  margin: 10px auto;
   display: grid;
   text-align: center;
-  height: 350px;
-  padding: 20px;
+  height: 400px;
+  padding: 5px;
+  padding-top: 20px;
 }
 .cartContent .right .promoCode .top {
   color: gray;
   font-size: 13px;
-  margin: 10px 0px;
-  text-align: left;
-  margin-left: 88px;
+  margin: 5px 0px;
+  text-align: center;
 }
 .cartContent .right .promoCode .bottom {
   display: flex;
   justify-content: center;
 }
 .cartContent .right .promoCode .bottom .b1 input {
-  width: 210px;
-  height: 30px;
   margin-right: 5px;
+  padding: 10px;
 }
 .cartContent .right .promoCode .bottom .b2 input {
-  width: 100px;
-  height: 30px;
+  padding: 10px;
   background: black;
   color: #fff;
-  font-weight: 550;
+  font-weight: 500;
 }
 .cartContent .right .promoCode .bottom .b2 input:hover {
   background: rgb(93, 93, 93);
@@ -1946,9 +1936,7 @@ strike {
   padding: 2px;
   box-shadow: 0px 0px 5px black;
 }
-
 .cartContent .right .payNow {
-  width: auto;
   margin: auto;
   background: #ff9900;
   padding: 10px 20px;
@@ -1959,204 +1947,7 @@ strike {
   background: #ffb200;
 }
 
-/*------------- Sign In-Sign Up Form creation---------- */
-.sIn {
-  display: none;
-  width: 500px;
-  background: lightgrey;
-  border: 1px solid black;
-  text-align: center;
-  padding-top: 50px;
-  position: fixed;
-  top: 100px;
-  left: 500px;
-  margin: 50px auto;
-}
-.show {
-  display: block;
-}
-.sIn .userSym {
-  position: absolute;
-  font-size: 40px;
-  top: -40px;
-  left: 220px;
-  background: #2fdab8;
-  padding: 20px;
-  border-radius: 50%;
-}
-.sIn .fa-window-close {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  font-size: 25px;
-}
-.sIn .fa-window-close:hover {
-  color: #2fdab8;
-}
-.sIn h2 {
-  margin-bottom: 30px;
-}
-.sIn .name,
-.pass {
-  width: 80%;
-  background: #fff;
-  height: 80px;
-  margin: 20px auto;
-  display: flex;
-}
-.sIn .pass {
-  position: relative;
-}
-.sIn .left {
-  background: #000;
-  width: 20%;
-}
-.sIn .left i {
-  border: 1px solid black;
-  font-size: 25px;
-  padding: 27px;
-  color: #2fdab8;
-}
-.sIn .right {
-  background: blanchedalmond;
-  width: 80%;
-}
-.sIn .right input {
-  height: 100%;
-  width: 100%;
-  font-size: 20px;
-  padding-left: 20px;
-}
-.sIn .right .fa-eye {
-  position: absolute;
-  top: 32px;
-  right: 20px;
-  color: grey;
-}
-.sIn .right .fa-eye:hover {
-  color: #2fdab8;
-}
-.sIn .right .fa-eye-slash {
-  position: absolute;
-  top: 32px;
-  right: 20px;
-}
-.sIn .right .fa-eye-slash:hover {
-  color: #2fdab8;
-}
-.sIn .sub {
-  width: 80%;
-  height: 80px;
-  margin: 20px auto;
-  font-size: 22px;
-  background: #000;
-  color: #2fdab8;
-}
-.sIn .sub:hover {
-  background: #fc636b;
-}
-.sIn .lastLine {
-  display: flex;
-  justify-content: center;
-  padding: 20px 0px;
-}
-.sIn .lastLine .first input {
-  margin-right: 5px;
-}
-.sIn .lastLine .second {
-  font-size: 15px;
-  color: gray;
-  margin-left: 60px;
-}
-.sIn .lastLine .second:hover {
-  color: #000;
-}
-.sUp {
-  display: none;
-  width: 500px;
-  margin: 50px auto;
-  background: lightgrey;
-  border: 1px solid black;
-  text-align: center;
-  padding-top: 50px;
-  position: fixed;
-  top: 20px;
-  left: 500px;
-}
-.sUp .fa-window-close {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 25px;
-}
-.sUp .fa-window-close:hover {
-  color: #2fdab8;
-}
-.sUp h2 {
-  margin-bottom: 30px;
-}
-.sUp .name,
-.pass {
-  width: 80%;
-  background: #fff;
-  height: 80px;
-  margin: 20px auto;
-  display: flex;
-}
-.sUp .left {
-  background: #000;
-  width: 20%;
-}
-.sUp .left i {
-  border: 1px solid black;
-  font-size: 25px;
-  padding: 27px;
-  color: #2fdab8;
-}
-.sUp .right {
-  background: blanchedalmond;
-  width: 80%;
-}
-.sUp .right input {
-  height: 100%;
-  width: 100%;
-  font-size: 20px;
-  padding-left: 20px;
-}
-.sUp .sub {
-  width: 80%;
-  height: 80px;
-  margin: 20px auto;
-  font-size: 22px;
-}
-.sUp .password .right {
-  position: relative;
-}
-.sUp .confPass .right {
-  position: relative;
-}
-.sUp .fa-eye,
-.fa-eye-slash {
-  position: absolute;
-  top: 32px;
-  right: 20px;
-}
-.sUp .fa-eye-slash:hover {
-  color: #2fdab8;
-}
-.sUp .fa-eye:hover {
-  color: #2fdab8;
-}
-.sUp .fa-eye-slash {
-  display: none;
-}
-.sUp .sub {
-  background: #000;
-  color: #2fdab8;
-}
-.sUp .sub:hover {
-  background: #fc636b;
-}
+
 
 .quickViewButton {
   background-color: cyan;

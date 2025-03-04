@@ -264,55 +264,8 @@
   }
 
   /*---------------add to cart page--------------------------*/
-  .cartContent {
-    margin-left: 0px;
-    width: 100%;
-  }
-  .cartContent .left {
-    width: 100%;
-    padding: 0px;
-  }
-  .cartContent .left .products hr {
-    width: 90%;
-    margin: auto;
-  }
-  .cartContent .left .products .item .photo {
-    height: auto;
-    margin-right: 10px;
-  }
-  .cartContent .left .products .item .content {
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    margin: 10px 0px;
-  }
-  .cartContent .left .products .item .content .col1,
-  .col2 {
-    margin-left: 10px;
-    width: 100%;
-  }
-  .cartContent .left .products .item .content .col3,
-  .col4 {
-    margin-left: 10px;
-    width: 100%;
-  }
-  .cartContent .left .totalItems {
-    margin: 0px;
-    margin-left: 30px;
-    margin-right: 90px;
-    font-size: 18px;
-    margin-top: 10px;
-  }
-  .cartContent .right {
-    width: 100%;
-    height: auto;
-  }
-  .cartContent .right .promoCode .top {
-    margin: 20px 0px;
-    margin-left: 65px;
-  }
-  .cartContent .right .priceData .row {
-    margin: 10px 65px;
-  }
+ 
+ 
 
 
   /* ---- PreviewBox in responsive ------- */
@@ -415,6 +368,23 @@
   .women_content3 .desc1 {
     width: 100%;
     padding: 10px;
+  }
+
+  .cartContent .left .products .item .content{
+    display: grid;
+    gap: 10px;
+    margin-left: 10px;
+  }
+  .cartContent .left .products .item .content .desc{
+    gap: 5px;
+    margin-bottom: 5px;    
+  }
+  .cartContent .left .products .item .content .desc .pName{
+    font-size: 20px !important;
+  }
+  .cartContent .left .products .item .content .desc .stock{
+    font-size: 15px !important;
+    border-bottom: none;
   }
 }
 
