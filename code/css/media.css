@@ -268,17 +268,6 @@
   }
 
   /* ======================= CONTACT PAGE ========================= */
-
-  .c {
-    width: 100%;
-    grid-template-columns: 1fr;
-  }
-  .cc {
-    grid-template-rows: 1fr 1fr 1fr;
-  }
-  .c .cc {
-    margin: 10px 0px;
-  }
   .contact_content4 {
     width: 100%;
     padding: 10px;
@@ -425,7 +414,16 @@
   .subheader .search{
     display: none;
   }
-  /* .subheader .sharing{
-    display: none;
-  } */
+  
+  .c {
+    width: 70%;
+    grid-template-columns: 1fr;
+  }
+  .form{
+    letter-spacing: 2px;
+  }
+  .form h1{
+    font-size: 20px;
+    margin: 5px;
+  }
 }

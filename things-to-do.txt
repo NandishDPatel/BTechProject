@@ -1,10 +1,9 @@
 ------------------ index.html --------------------
-=> Header:
-    - apply navbar in all html pages => copy paste in all
-    - don't open sign in or sign up page
-    - right now im doing changes in index.html -> navbar, subheader and menu divs 
-    - after changes copy paste them in all other html pages
-
+=> Header: done 
 - things completed in index.html
     + header
-    + 
+
+
+=> Footer: remaining for all pages
+
+- doing contact page =>

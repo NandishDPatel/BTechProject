@@ -19,8 +19,6 @@
 <body>
 
   <!-- header START -->
-
-
   <nav class="navbar navbar-expand-lg p-0 bg-body-tertiary">
     <div class="container-fluid" style="background-color: black; padding: 5px 10px;  ">
       <a class="navbar-brand" href="#" style="color: white; font-weight:600; padding-left: 10px;">E-Shoppy</a>
@@ -51,7 +49,6 @@
       </div>
     </div>
   </nav>
-
   <nav class="subheader navbar navbar-expand-lg p-0 bg-body-tertiary">
     <div class="container-fluid d-flex justify-content-between row">
       <form class="d-flex col-lg-4 col-12" role="search">
@@ -154,22 +151,21 @@
         <h1>CONTACT <p>FORM</p>
         </h1>
         <div class="fc name">
-          <input class="inp" type="text" placeholder="Name" id="nm" onblur="chkNm()"><span class="hidden"
+          <input class="inp" type="text" placeholder="Name" id="nm"><span class="hidden"
             id="sp1"></span>
         </div>
         <div class="fc email">
-          <input class="inp" id="em" type="text" placeholder="Email" onblur="chkEm()"><span class="hidden"></span>
+          <input class="inp" id="em" type="text" placeholder="Email" ><span class="hidden"></span>
         </div>
         <div class="fc message">
-          <input class="inp" id="call" type="text" placeholder="Contact" onblur="chkMb()"><span class="hidden"></span>
+          <input class="inp" id="call" type="text" placeholder="Contact"><span class="hidden"></span>
         </div>
         <div class="fc subject">
           <input class="inp" type="text" placeholder="Subject"><span class="hidden"></span>
         </div>
 
         <div class="send">
-          <input type="button" id="sendButton" value="Send" onclick="checkFields()">
-          <!-- onclick="clickForm(sendButton)" -->
+          <input type="button" id="sendButton" value="Send">
         </div>
       </div>
     </div>
