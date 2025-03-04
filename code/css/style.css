@@ -1583,15 +1583,10 @@ strike {
 }
 .teamgrid {
   width: 100%;
-  margin: auto;
+  margin: 5px auto;
   display: grid;
-  grid-template-rows: 2fr 5fr;
 }
-.teamgrid h1 {
-  display: flex;
-  justify-content: center;
-  line-height: 80px;
-}
+
 .members {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -1599,6 +1594,7 @@ strike {
 .members .member {
   position: relative;
   transform: rotateY(0deg);
+  padding: 5px;
 }
 .members .member:hover .img {
   border: 2px solid black;
@@ -1615,12 +1611,14 @@ strike {
   left: 0px;
   height: 250px;
   margin: 10px;
-  background: grey;
+  background:#222222;
   z-index: -1;
 }
 .members .imgBack h1 {
   font-size: 28px;
   color: #2fdab8;
+  text-align: center;
+ padding-top: 10px;
 }
 .members .imgBack h3 {
   text-align: center;

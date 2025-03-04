@@ -251,10 +251,8 @@
   .description1 {
     width: 100%;
     grid-template-columns: 1fr;
-    /* padding: 10px; */
-  }
-  .teamgrid {
-    grid-template-rows: auto;
+    padding: 10px;
+    font-size: small;
   }
   .members .imgBack h1 {
     font-size: 20px;
@@ -263,9 +261,7 @@
     font-size: 15px;
     font-weight: 400;
   }
-  .members {
-    grid-template-columns: 1fr 1fr;
-  }
+ 
 
   /* ======================= CONTACT PAGE ========================= */
   .contact_content4 {
@@ -275,6 +271,7 @@
   .form {
     width: 100%;
   }
+  
 
   /*---------------add to cart page--------------------------*/
   .cartContent {
@@ -419,11 +416,35 @@
     width: 70%;
     grid-template-columns: 1fr;
   }
-  .form{
+  .c .form{
     letter-spacing: 2px;
   }
-  .form h1{
+  .c .form h1{
     font-size: 20px;
     margin: 5px;
   }
+  .description1 {
+    width: 80%;
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  /* .members .member .imgBack h3{
+    font-size: 16px !important;
+  } */
+  
+}
+
+@media (max-width: 1200px ) {
+  .members {
+    grid-template-columns: 1fr 1fr;
+  }
+  .members .member .imgBack h1{
+    font-size: medium;
+  }
+.members .member .imgBack h3{
+  font-size: 14px !important;
+}
+.teamgrid .h1 h1{
+  line-height: 30px !important;
+}
 }
