@@ -84,13 +84,20 @@ nav .navbar-toggler:hover{
   border: 2px solid lightgrey;
   padding-left: 10px;
 }
-.subheader .search i {
+/* .subheader .search i {
   color: white;
   background: #2fdab8;
   padding: 17px;
   transition: 1s;
-}
+} */
 .subheader .search i:hover {
+  background: black;
+}
+.subheader form button{
+  background: #2fdab8;
+  transition: 1s;
+}
+.subheader form button:hover {
   background: black;
 }
 .subheader .company {
@@ -115,8 +122,8 @@ nav .navbar-toggler:hover{
   color: #2fdab8;
 }
 .subheader .sharing {
-  width: 35%;
-  letter-spacing: 4px;
+  /* width: 35%; */
+  /* letter-spacing: 4px; */
 }
 .subheader .sharing i {
   padding: 15px;
@@ -171,22 +178,51 @@ nav .navbar-toggler:hover{
   text-decoration: none;
   color: #fff;
 }
-.menu .submenu .cart {
-  width: 20%;
-  background: #2fdab8;
-  text-align: center;
-  line-height: 80px;
+/* ///////////////////// */
+.menu-items{
+  background: #000;
+  /* color: white; */
 }
-.menu .submenu .cart a {
+.menu-items .navbar-collapse li{
+  /* width: 150%; */
+  margin: 0px 10px;
+}
+.menu-items .navbar-collapse li a{
+  position: relative;
+  color: white;
+  font-size: larger;
+}
+.menu-items .navbar-collapse li a::before {
+  content: "";
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 0%;
+  border-bottom: 5px solid #2fdab8;
+  transition: 3s;
+}
+.menu-items .navbar-collapse li a:hover::before {
+  width: 100%;
+} 
+.menu-items .navbar-brand{
+  /* width: 20%; */
+  width: 10%;
+  background: #2fdab8;
+  color: #000;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 40px;
+}
+.menu-items .navbar-brand:hover{
+  color: #fff;
+  transition: 2s;
+}
+.menu-items .navbar-brand a i{
   color: #000;
 }
-.menu .submenu .cart i {
-  background: rgba(211, 211, 211, 0.601);
-  padding: 10px;
-  transition: 1s;
-}
-.menu .submenu .cart i:hover {
-  background: #fff;
+
+.menu-items .navbar-brand a:hover{
+  color: white;
 }
 /*------------Banner--------------*/
 .banner {

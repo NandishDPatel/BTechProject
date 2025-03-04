@@ -1,134 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="css/media.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>E-Shoppy</title>
-  </head>
-  <body>
-    <!-- header STARTS -->
 
-    <div class="header">
-      <div class="blank1"></div>
-      <div class="h signIn"><i class="fa-solid fa-unlock"></i><button id="signInButton">Sign In</button></div>
-      <div class="h signUp">
-        <i class="fa-solid fa-pen-to-square"></i><button id="signUpButton">Sign Up</button>
-      </div>
-      <div class="h call">
-        <i class="fa-solid fa-phone"></i> Contact : 9978888520
-      </div>
-      <div class="h mail">
-        <i class="fa-regular fa-envelope"></i> eshoppy@info.com
-      </div>
-      <div class="blank2"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/media.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>E-Shoppy</title>
+</head>
+
+<body>
+  <!-- header STARTS -->
+
+  <!-- <div class="header">
+    <div class="blank1"></div>
+    <div class="h signIn"><i class="fa-solid fa-unlock"></i><button id="signInButton">Sign In</button></div>
+    <div class="h signUp">
+      <i class="fa-solid fa-pen-to-square"></i><button id="signUpButton">Sign Up</button>
     </div>
+    <div class="h call">
+      <i class="fa-solid fa-phone"></i> Contact : 9978888520
+    </div>
+    <div class="h mail">
+      <i class="fa-regular fa-envelope"></i> eshoppy@info.com
+    </div>
+    <div class="blank2"></div>
+  </div> -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid" style="background-color: black; padding: 5px 10px;  ">
-        <a class="navbar-brand" href="#" style="color: white; font-weight:600; padding-left: 10px;">E-Shoppy</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon bg-white" style="border-radius: 5px;"></span>
-        </button>
-        <div class="collapse navbar-collapse me-2 color-white" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto  mb-2 mb-lg-0">
-            <li class="nav-item me-4">
-              <a class="nav-link active" aria-current="page" href="#" id="signInButton" style="color: white;"><i class="fa-solid me-2 fa-unlock" style="color: #2fdab8;" ></i>Sign-In</a>
-            </li>
-            <li class="nav-item me-4">
-              <a class="nav-link active" aria-current="page" href="#" id="signUpButton" style="color: white;"><i class="fa-solid me-2 fa-pen-to-square"  style="color: #2fdab8;"></i>Sign-Up</a>
-            </li>
-            <li class="nav-item me-4">
-              <a class="nav-link active" aria-current="page" href="#" style="color: white;"> <i class="fa-solid me-2 fa-phone" style="color: #2fdab8;"></i>Contact: +1(683)-345-2093</a>
-            </li>
-            <li class="nav-item me-4">
-              <a class="nav-link active" aria-current="page" href="#" style="color: white;"><i class="fa-regular fa-envelope me-2" style="color: #2fdab8;"></i>eshoppy@mail.com</a>
-            </li>
-          </ul>
+  <nav class="navbar navbar-expand-lg p-0 bg-body-tertiary">
+    <div class="container-fluid" style="background-color: black; padding: 5px 10px;  ">
+      <a class="navbar-brand" href="#" style="color: white; font-weight:600; padding-left: 10px;">E-Shoppy</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-white" style="border-radius: 5px;"></span>
+      </button>
+      <div class="collapse navbar-collapse me-2 color-white" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto  mb-2 mb-lg-0">
+          <li class="nav-item me-4">
+            <a class="nav-link active" aria-current="page" href="#" id="signInButton" style="color: white;"><i
+                class="fa-solid me-2 fa-unlock" style="color: #2fdab8;"></i>Sign-In</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link active" aria-current="page" href="#" id="signUpButton" style="color: white;"><i
+                class="fa-solid me-2 fa-pen-to-square" style="color: #2fdab8;"></i>Sign-Up</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link active" aria-current="page" href="#" style="color: white;"> <i
+                class="fa-solid me-2 fa-phone" style="color: #2fdab8;"></i>Contact: +1(683)-345-2093</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link active" aria-current="page" href="#" style="color: white;"><i
+                class="fa-regular fa-envelope me-2" style="color: #2fdab8;"></i>eshoppy@mail.com</a>
+          </li>
+        </ul>
 
-        </div>
-      </div>
-    </nav>
-
-    <div class="subheader">
-      <div class="sub search">
-        <input type="text" placeholder="Search Here..." />
-        <i class="fa-solid fa-magnifying-glass"></i>
-      </div>
-      <div class="sub company">
-        <span>E</span>-Shopp<p>y<i class="fa-solid fa-bag-shopping"></i></p>
-      </div>
-      <div class="sub sharing">
-        Share On :
-        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
-        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
       </div>
     </div>
+  </nav>
+  
+  <!-- 
+  <div class="subheader">
+    <div class="sub search">
+      <input type="text" placeholder="Search Here..." />
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <div class="sub company">
+      <span>E</span>-Shopp<p>y<i class="fa-solid fa-bag-shopping"></i></p>
+    </div>
+    <div class="sub sharing">
+      Share On :
+      <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </div> -->
 
-    <nav class="subheader navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid d-flex justify-content-between row">
-        <form class="d-flex col-lg-4 col-12" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-        <a class="navbar-brand me-5 col-lg-4 col-12" href="#"><div class="sub company mx-auto">
+  <nav class="subheader navbar navbar-expand-lg p-0 bg-body-tertiary">
+    <div class="container-fluid d-flex justify-content-between row">
+      <form class="d-flex col-lg-4 col-12" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn" type="submit" style="color:white;"><i
+            class="fa-solid fa-magnifying-glass color-black"></i></button>
+      </form>
+      <a class="navbar-brand me-5 col-lg-4 col-12 mx-auto " href="#">
+        <div class="sub company mx-auto">
           <span>E</span>-Shopp<p>y<i class="fa-solid fa-bag-shopping"></i></p>
-        </div></a>
-        
-          <ul class="navbar-nav col-lg-4 col-12 ">
-              Share On :
-              <a href="https://www.facebook.com/" class="me-2" style="background: #2fdab8; padding:10px; margin-start:5px;"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
-              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-              <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
-          </ul>
+        </div>
+      </a>
+      <ul class="sub sharing navbar-nav col-lg-4 col-12 mx-auto">
+        <div class="d-flex mx-auto">
+          <p style="font-weight:500;">Share:</p>
+          <div class="d-flex">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f me-2"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter me-2"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram me-2"></i></a>
+            <a href="https://www.linkedin.com/" class="me-2"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!-- <div class="menu">
+    <div class="submenu">
+      <div class="list">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="men.html">Men's Wear</a></li>
+          <li><a href="women.html">Women's Wear</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
       </div>
-    </nav>
-
-
-    <div class="menu">
-
-      <div class="submenu">
-        <div class="list">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="men.html">Men's Wear</a></li>
-            <li><a href="women.html">Women's Wear</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="cart">
-          <a href="addtocart.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
-        </div>
+      <div class="cart">
+        <a href="addtocart.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
       </div>
     </div>
-
-    <!-- header END -->
-
-    <!-- Content Start-->
-
-    <div class="banner">
-      <h1 class="b heading">SUMMER <span>COLLECTION</span></h1>
-      <h3>New Arrivals On Sale</h3>
-      <a href="women.html"><div class="b shopNow">Shop Now</div></a>
-      <img src="images/home_page/banner1.jpg" class="imgSrc" id="img1" height="100%" width="100%" alt="">
+  </div> -->
+  
+  <nav class="navbar navbar-expand-lg menu-items">
+    <div class="container-fluid d-flex justify-items-center">
+      <a class="navbar-brand" href="addtocart.html">
+        <i class="fa-solid fa-cart-arrow-down"></i>
+      </a>
+      <button class="navbar-toggler mx-auto me-3 bg-white" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto ">
+          <li class="nav-item px-2">
+            <a class="nav-link" style="color: #2fdab8;" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="men.html">Men's Wear</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="women.html">Women's Wear</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
+  <!-- header END -->
 
-    <div class="twoImages">
-      <a href="men.html">
+  <!-- Content Start-->
+
+  <div class="banner">
+    <h1 class="b heading">SUMMER <span>COLLECTION</span></h1>
+    <h3>New Arrivals On Sale</h3>
+    <a href="women.html">
+      <div class="b shopNow">Shop Now</div>
+    </a>
+    <img src="images/home_page/banner1.jpg" class="imgSrc" id="img1" height="100%" width="100%" alt="">
+  </div>
+
+  <div class="twoImages">
+    <a href="men.html">
       <div class="img image1">
         <h1><span>F</span>ALL AHEAD</h1>
         <div class="newArrivals">New Arrivals</div>
@@ -140,53 +183,53 @@
         <div class="newArrivals">New Arrivals</div>
       </div>
     </a>
-    </div>
+  </div>
 
-    <div class="saveBanner">
-      <div class="x left_image">
-        <img src="images/home_page/save_banner.jpg" height="100%" width="100%" alt="">
-      </div>
-      <div class="x information">
-        <div class="information1">
-          <h1>SAVE UP TO <span>50%</span> IN THIS WEEK</h1>
-          <div class="info">
-            Suspendisse varius turpis efficitur erat laoreet dapibus. Mauris
-            sollicitudin scelerisque commodo.Nunc dapibus mauris sed metus
-            finibus posuere.
+  <div class="saveBanner">
+    <div class="x left_image">
+      <img src="images/home_page/save_banner.jpg" height="100%" width="100%" alt="">
+    </div>
+    <div class="x information">
+      <div class="information1">
+        <h1>SAVE UP TO <span>50%</span> IN THIS WEEK</h1>
+        <div class="info">
+          Suspendisse varius turpis efficitur erat laoreet dapibus. Mauris
+          sollicitudin scelerisque commodo.Nunc dapibus mauris sed metus
+          finibus posuere.
+        </div>
+        <div class="logos">
+          <div class="logo">
+            <i class="fa fa-user"></i>
+            <h3>CUSTOMERS</h3>
+            <h4 id="countCust">653</h4>
           </div>
-          <div class="logos">
-            <div class="logo">
-              <i class="fa fa-user"></i>
-              <h3>CUSTOMERS</h3>
-              <h4 id="countCust">653</h4>
-            </div>
-            <div class="logo">
-              <i class="fa fa-calendar"></i>
-              <h3>EVENTS</h3>
-              <h4 id="countEvent">823</h4>
-            </div>
-            <div class="logo">
-              <i class="fa fa-shield"></i>
-              <h3>AWARDS</h3>
-              <h4 id="countAward">45</h4>
-            </div>
+          <div class="logo">
+            <i class="fa fa-calendar"></i>
+            <h3>EVENTS</h3>
+            <h4 id="countEvent">823</h4>
+          </div>
+          <div class="logo">
+            <i class="fa fa-shield"></i>
+            <h3>AWARDS</h3>
+            <h4 id="countAward">45</h4>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="trending">
-      <div class="inside">
-        <div class="header"><span>WHAT'S</span> TRENDING</div>
-        <div class="images">
-          <a href="women.html">
+  <div class="trending">
+    <div class="inside">
+      <div class="header"><span>WHAT'S</span> TRENDING</div>
+      <div class="images">
+        <a href="women.html">
           <div class="x image1">
             <div class="sale"><span>S</span>ALE</div>
             <div class="hidden">Upto 55%</div>
           </div>
         </a>
-          <div class="rightSide">
-            <a href="men.html">
+        <div class="rightSide">
+          <a href="men.html">
             <div class="x image2">
               <div class="sale"><span>S</span>ALE</div>
               <div class="hidden">Upto 55%</div>
@@ -198,477 +241,376 @@
               <div class="hidden">Upto 55%</div>
             </div>
           </a>
-          </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="fullBanner twoImages">
-      <div class="x image1">
-        <div class="offer">
-          <a href="">FLAT<span>50%</span> offer</a>
+  <div class="fullBanner twoImages">
+    <div class="x image1">
+      <div class="offer">
+        <a href="">FLAT<span>50%</span> offer</a>
+      </div>
+    </div>
+    <div class="x image2">
+      <div class="offer">
+        <a href="">Flat <span>50%</span> offer</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="newArrivals">
+    <div class="subheading"><span>NEW</span> ARRIVALS</div>
+    <div class="title">
+      <a href="men.html">
+        <div class="section">MEN'S</div>
+      </a>
+      <a href="women.html">
+        <div class="section">WOMEN'S</div>
+      </a>
+      <a href="men.html">
+        <div class="section">BAGS</div>
+      </a>
+      <a href="women.html">
+        <div class="section">FOOTWEAR</div>
+      </a>
+    </div>
+    <div class="row">
+      <div class="item item1 section">
+        <div class="image">
+          <img src="images/home_page/01_home_gr1.jpg" height="100%" width="100%" alt="" />
+          <img class="back" src="images/home_page/01_home_gr1.jpg" height="100%" width="100%" alt="" />
+        </div>
+        <div class="footer">
+          <h3>Formal Blue Shirt</h3>
         </div>
       </div>
-      <div class="x image2">
-        <div class="offer">
-          <a href="">Flat <span>50%</span> offer</a>
+      <div class="item item2 section">
+        <div class="image">
+          <img src="images/home_page/01_home_gr2.jpg" height="100%" width="100%" alt="" />
+          <img class="back" src="images/home_page/01_home_gr2.jpg" height="100%" width="100%" alt="" />
+        </div>
+        <div class="footer">
+          <h3>Black Track</h3>
+        </div>
+      </div>
+      <div class="item item3 section">
+        <div class="image">
+          <img src="images/home_page/01_home_gr3.jpg" height="100%" width="100%" alt="" />
+          <img class="back" src="images/home_page/01_home_gr3.jpg" height="100%" width="100%" alt="" />
+        </div>
+        <div class="footer">
+          <h3>Brown Vest Belt</h3>
+        </div>
+      </div>
+      <div class="item item4 section">
+        <div class="image">
+          <img src="images/home_page/01_home_gr4.jpg" height="100%" width="100%" alt="" />
+          <img class="back" src="images/home_page/01_home_gr4.jpg" height="100%" width="100%" alt="" />
+        </div>
+        <div class="footer">
+          <h3>Pink Leggings</h3>
         </div>
       </div>
     </div>
-
-    <div class="newArrivals">
-      <div class="subheading"><span>NEW</span> ARRIVALS</div>
-      <div class="title">
-        <a href="men.html"><div class="section">MEN'S</div></a>
-        <a href="women.html"><div class="section">WOMEN'S</div></a>
-        <a href="men.html"><div class="section">BAGS</div></a>
-        <a href="women.html"><div class="section">FOOTWEAR</div></a>
-      </div>
-      <div class="row">
-        <div class="item item1 section">
-          <div class="image">
-            <img
-              src="images/home_page/01_home_gr1.jpg"
-              height="100%"
-              width="100%"
-              alt=""
-            />
-            <img class="back"
-              src="images/home_page/01_home_gr1.jpg"
-              height="100%"
-              width="100%"
-              alt=""
-            />
-          </div>
-          <div class="footer">
-            <h3>Formal Blue Shirt</h3>
-          </div>
+    <div class="row">
+      <div class="item item5 section">
+        <div class="image">
+          <img src="images/home_page/01_home_gr5.jpg" height="100%" width="100%" alt="" />
+          <img class="back" src="images/home_page/01_home_gr5.jpg" height="100%" width="100%" alt="" />
         </div>
-        <div class="item item2 section">
-          <div class="image">
-            <img
-              src="images/home_page/01_home_gr2.jpg"
-              height="100%"
-              width="100%"
-              alt=""
-            />
-            <img class="back"
-              src="images/home_page/01_home_gr2.jpg"
-              height="100%"
-              width="100%"
-              alt=""
-            />
-          </div>
-          <div class="footer">
-            <h3>Black Track</h3>
-          </div>
-        </div>
-        <div class="item item3 section">
-          <div class="image">
-            <img
-              src="images/home_page/01_home_gr3.jpg"
-              height="100%"
-              width="100%"
-              alt=""
-            />
-            <img class="back"
-              src="images/home_page/01_home_gr3.jpg"
-              height="100%"
-              width="100%"
-              alt=""
-            />
-          </div>
-          <div class="footer">
-            <h3>Brown Vest Belt</h3>
-          </div>
-        </div>
-        <div class="item item4 section">
-          <div class="image">
-            <img
-              src="images/home_page/01_home_gr4.jpg"
-              height="100%"
-              width="100%"
-              alt=""
-            />
-            <img class="back"
-              src="images/home_page/01_home_gr4.jpg"
-              height="100%"
-              width="100%"
-              alt=""
-            />
-          </div>
-          <div class="footer">
-            <h3>Pink Leggings</h3>
-          </div>
+        <div class="footer">
+          <h3>Blue Slevlees Top</h3>
         </div>
       </div>
-      <div class="row">
-        <div class="item item5 section">
-          <div class="image">
-            <img
-              src="images/home_page/01_home_gr5.jpg"
-              height="100%"
-              width="100%"
-              alt=""
-            />
-            <img class="back"
-              src="images/home_page/01_home_gr5.jpg"
-              height="100%"
-              width="100%"
-              alt=""
-            />
-          </div>
-          <div class="footer">
-            <h3>Blue Slevlees Top</h3>
-          </div>
+      <div class="item item6 section">
+        <div class="image">
+          <img src="images/home_page/01_home_gr6.jpg" height="100%" width="100%" alt="" />
+          <img class="back" src="images/home_page/01_home_gr6.jpg" height="100%" width="100%" alt="" />
         </div>
-        <div class="item item6 section">
-          <div class="image">
-            <img
-              src="images/home_page/01_home_gr6.jpg"
-              height="100%"
-              width="100%"
-              alt=""
-            />
-            <img class="back"
-              src="images/home_page/01_home_gr6.jpg"
-              height="100%"
-              width="100%"
-              alt=""
-            />
-          </div>
-          <div class="footer">
-            <h3>Silver Analog Watch</h3>
-          </div>
+        <div class="footer">
+          <h3>Silver Analog Watch</h3>
         </div>
-        <div class="item item7 section">
-          <div class="image">
-            <img
-              src="images/home_page/01_home_gr7.jpg"
-              height="100%"
-              width="100%"
-              alt=""
-            />
-            <img class="back"
-              src="images/home_page/01_home_gr7.jpg"
-              height="100%"
-              width="100%"
-              alt=""
-            />
-          </div>
-          <div class="footer">
-            <h3>Black Socks</h3>
-          </div>
+      </div>
+      <div class="item item7 section">
+        <div class="image">
+          <img src="images/home_page/01_home_gr7.jpg" height="100%" width="100%" alt="" />
+          <img class="back" src="images/home_page/01_home_gr7.jpg" height="100%" width="100%" alt="" />
         </div>
-        <div class="item item8 section">
-          <div class="image">
-            <img
-              src="images/home_page/01_home_gr8.jpg"
-              height="100%"
-              width="100%"
-              alt=""
-            />
-            <img class="back"
-              src="images/home_page/01_home_gr8.jpg"
-              height="100%"
-              width="100%"
-              alt=""
-            />
-          </div>
-          <div class="footer">
-            <h3>Formal Black Shoes</h3>
-          </div>
+        <div class="footer">
+          <h3>Black Socks</h3>
+        </div>
+      </div>
+      <div class="item item8 section">
+        <div class="image">
+          <img src="images/home_page/01_home_gr8.jpg" height="100%" width="100%" alt="" />
+          <img class="back" src="images/home_page/01_home_gr8.jpg" height="100%" width="100%" alt="" />
+        </div>
+        <div class="footer">
+          <h3>Formal Black Shoes</h3>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="backgroundClip">
-      <h1>We Offer Flat <span>40%</span> Discount</h1>
-      <a href="men.html"><div class="shopNow">Shop Now</div></a> 
-    </div>
+  <div class="backgroundClip">
+    <h1>We Offer Flat <span>40%</span> Discount</h1>
+    <a href="men.html">
+      <div class="shopNow">Shop Now</div>
+    </a>
+  </div>
 
-    <div class="icons">
-      <div class="icon">
-        <div class="symbol">
-          <i class="fa fa-truck"></i>
-          <div class="inside"></div>
-        </div>
-        <div class="info">
-          <h3>FREE SHIPPING</h3>
-          <br />
-          <span>Get FREE delivery on first five orders!</span>
-        </div>
+  <div class="icons">
+    <div class="icon">
+      <div class="symbol">
+        <i class="fa fa-truck"></i>
+        <div class="inside"></div>
       </div>
-      <div class="icon">
-        <div class="symbol">
-          <i class="fa fa-headphones"></i>
-          <div class="inside"></div>
-        </div>
-        <div class="info">
-          <h3>24/7 SUPPORT</h3>
-          <br />
-          <span>No matter the time of day, we're here to help.</span>
-        </div>
-      </div>
-      <div class="icon">
-        <div class="symbol">
-          <i class="fa fa-shopping-bag"></i>
-          <div class="inside"></div>
-        </div>
-        <div class="info">
-          <h3>MONEY BACK GUARANTEE</h3>
-          <br />
-          <span>Full refund in case a order cancels within 3 days</span>
-        </div>
-      </div>
-      <div class="icon">
-        <div class="symbol">
-          <i class="fa fa-gift"></i>
-          <div class="inside"></div>
-        </div>
-        <div class="info">
-          <h3>FREE GIFT COUPONS</h3>
-          <br />
-          <span>Coupens will be povided to the lucky customers</span>
-        </div>
+      <div class="info">
+        <h3>FREE SHIPPING</h3>
+        <br />
+        <span>Get FREE delivery on first five orders!</span>
       </div>
     </div>
+    <div class="icon">
+      <div class="symbol">
+        <i class="fa fa-headphones"></i>
+        <div class="inside"></div>
+      </div>
+      <div class="info">
+        <h3>24/7 SUPPORT</h3>
+        <br />
+        <span>No matter the time of day, we're here to help.</span>
+      </div>
+    </div>
+    <div class="icon">
+      <div class="symbol">
+        <i class="fa fa-shopping-bag"></i>
+        <div class="inside"></div>
+      </div>
+      <div class="info">
+        <h3>MONEY BACK GUARANTEE</h3>
+        <br />
+        <span>Full refund in case a order cancels within 3 days</span>
+      </div>
+    </div>
+    <div class="icon">
+      <div class="symbol">
+        <i class="fa fa-gift"></i>
+        <div class="inside"></div>
+      </div>
+      <div class="info">
+        <h3>FREE GIFT COUPONS</h3>
+        <br />
+        <span>Coupens will be povided to the lucky customers</span>
+      </div>
+    </div>
+  </div>
 
-    <!-- Content END-->
+  <!-- Content END-->
 
-    <!-- Footer Start -->
+  <!-- Footer Start -->
 
-    <div class="footer">
-      <div class="f eliteShoppy">
-        <h1 class="fh"><span>E</span> - Shoppy</h1>
-        <div class="info">
-          EShoppy is a software application that enables online commerce for
-          merchants and consumers. Ecommerce platforms can manage web hosting,
-          inventory management, payment processing, marketing, order
-          fulfillment, and more.
-        </div>
-        <div class="logos">
-          <ul>
-            <li>
-                <a href=https://www.facebook.com/">
+  <div class="footer">
+    <div class="f eliteShoppy">
+      <h1 class="fh"><span>E</span> - Shoppy</h1>
+      <div class="info">
+        EShoppy is a software application that enables online commerce for
+        merchants and consumers. Ecommerce platforms can manage web hosting,
+        inventory management, payment processing, marketing, order
+        fulfillment, and more.
+      </div>
+      <div class="logos">
+        <ul>
+          <li>
+            <a href=https://www.facebook.com/">
               <i class="fa-brands fa-facebook-f"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com/">
+          </li>
+          <li>
+            <a href="https://twitter.com/">
               <i class="fa-brands fa-twitter"></i></a>
-            </li>
-            <li>
-              <a href="https://instagram.com/">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/">
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-            </li>
-          </ul>
+          </li>
+          <li>
+            <a href="https://instagram.com/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="f information">
+      <h2>OUR INFORMATION</h2>
+      <div class="list">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="men.html">Men's Wear</a></li>
+          <li><a href="women.html">Women's Wear</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="addtocart.html">My Cart</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="f store">
+      <h2>STORE INFORMATION</h2>
+      <div class="row">
+        <div class="icon">
+          <i class="fa fa-phone"></i>
+        </div>
+        <div class="content">
+          <h3>Phone Number</h3>
+          <div class="info">+1 234 567 8901</div>
         </div>
       </div>
-      <div class="f information">
-        <h2>OUR INFORMATION</h2>
-        <div class="list">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="men.html">Men's Wear</a></li>
-            <li><a href="women.html">Women's Wear</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="addtocart.html">My Cart</a></li>
-          </ul>
+      <div class="row">
+        <div class="icon">
+          <i class="fa fa-envelope"></i>
+        </div>
+        <div class="content">
+          <h3>Email Address</h3>
+          <div class="info">Email : <span>mail@example.com</span></div>
         </div>
       </div>
-      <div class="f store">
-        <h2>STORE INFORMATION</h2>
-        <div class="row">
-          <div class="icon">
-            <i class="fa fa-phone"></i>
-          </div>
-          <div class="content">
-            <h3>Phone Number</h3>
-            <div class="info">+1 234 567 8901</div>
-          </div>
+      <div class="row">
+        <div class="icon">
+          <i class="fa fa-map-location"></i>
         </div>
-        <div class="row">
-          <div class="icon">
-            <i class="fa fa-envelope"></i>
-          </div>
-          <div class="content">
-            <h3>Email Address</h3>
-            <div class="info">Email : <span>mail@example.com</span></div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="icon">
-            <i class="fa fa-map-location"></i>
-          </div>
-          <div class="content">
-            <h3>Location</h3>
-            <div class="info">Broome St, NY 10002,California, USA.</div>
-          </div>
-        </div>
-      </div>
-      <div class="f posts">
-        <h2>Customer Posts</h2>
-        <div class="row">
-          <div class="img">
-            <img
-              src="images/home_page/01_footer_2.jpg"
-              height="100%"
-              width="100%"
-            />
-          </div>
-          <div class="img i2">
-            <img
-              src="images/home_page/01_footer_3.jpg"
-              height="100%"
-              width="100%"
-            />
-          </div>
-          <div class="img i3">
-            <img
-              src="images/home_page/01_footer_4.jpg"
-              height="100%"
-              width="100%"
-            />
-          </div>
-        </div>
-        <div class="row">
-          <div class="img i3">
-            <img
-              src="images/home_page/01_footer_1.jpg"
-              height="100%"
-              width="100%"
-            />
-          </div>
-          <div class="img i1">
-            <img
-              src="images/home_page/01_footer_2.jpg"
-              height="100%"
-              width="100%"
-            />
-          </div>
-          <div class="img i2">
-            <img
-              src="images/home_page/01_footer_3.jpg"
-              height="100%"
-              width="100%"
-            />
-          </div>
-        </div>
-        <div class="row">
-          <div class="img">
-            <img
-              src="images/home_page/01_footer_3.jpg"
-              height="100%"
-              width="100%"
-            />
-          </div>
-          <div class="img">
-            <img
-              src="images/home_page/01_footer_4.jpg"
-              height="100%"
-              width="100%"
-            />
-          </div>
-          <div class="img">
-            <img
-              src="images/home_page/01_footer_1.jpg"
-              height="100%"
-              width="100%"
-            />
-          </div>
+        <div class="content">
+          <h3>Location</h3>
+          <div class="info">Broome St, NY 10002,California, USA.</div>
         </div>
       </div>
     </div>
+    <div class="f posts">
+      <h2>Customer Posts</h2>
+      <div class="row">
+        <div class="img">
+          <img src="images/home_page/01_footer_2.jpg" height="100%" width="100%" />
+        </div>
+        <div class="img i2">
+          <img src="images/home_page/01_footer_3.jpg" height="100%" width="100%" />
+        </div>
+        <div class="img i3">
+          <img src="images/home_page/01_footer_4.jpg" height="100%" width="100%" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="img i3">
+          <img src="images/home_page/01_footer_1.jpg" height="100%" width="100%" />
+        </div>
+        <div class="img i1">
+          <img src="images/home_page/01_footer_2.jpg" height="100%" width="100%" />
+        </div>
+        <div class="img i2">
+          <img src="images/home_page/01_footer_3.jpg" height="100%" width="100%" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="img">
+          <img src="images/home_page/01_footer_3.jpg" height="100%" width="100%" />
+        </div>
+        <div class="img">
+          <img src="images/home_page/01_footer_4.jpg" height="100%" width="100%" />
+        </div>
+        <div class="img">
+          <img src="images/home_page/01_footer_1.jpg" height="100%" width="100%" />
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <!-- Footer End -->
-    <!-- Go TO Top -->
-    <a class="goToTop" href="#"><div class="toTop"><i class="fa-solid fa-arrow-up"></i></div></a> 
-<!-- Go TO Top End -->
-    <!-- Sign In/Sign Up form Starts -->
-    <div class="sIn" id="signIn1">
-      <i class="fa fa-user userSym" aria-hidden="true"></i>
-      <i class="fas fa-window-close"   onclick="closeClk(signIn1)"></i>
-      <h2>Sign In</h2>
-      <div class="name">
-        <div class="left">
-          <i class="fa fa-user" aria-hidden="true"></i>
-        </div>
-        <div class="right">
-          <input type="text" value="Username" id="siNm" >
-        </div>
+  <!-- Footer End -->
+  <!-- Go TO Top -->
+  <a class="goToTop" href="#">
+    <div class="toTop"><i class="fa-solid fa-arrow-up"></i></div>
+  </a>
+  <!-- Go TO Top End -->
+  <!-- Sign In/Sign Up form Starts -->
+  <div class="sIn" id="signIn1">
+    <i class="fa fa-user userSym" aria-hidden="true"></i>
+    <i class="fas fa-window-close" onclick="closeClk(signIn1)"></i>
+    <h2>Sign In</h2>
+    <div class="name">
+      <div class="left">
+        <i class="fa fa-user" aria-hidden="true"></i>
       </div>
-      <div class="pass" id="siPass">
-        <div class="left">
-          <i class="fa fa-lock" aria-hidden="true"></i>
-        </div>
-        <div class="right">
-          <input type="password" value="Password" id="siPas">
-          <i class="fa fa-eye" id="sInEye1" aria-hidden="true" onclick="showE1()"></i>
-          <i class="fa fa-eye-slash" id="sInEye2" aria-hidden="true" onclick="showE2()"></i>
-        </div>
+      <div class="right">
+        <input type="text" value="Username" id="siNm">
       </div>
-      <button class="sub" type="submit" id="lg" onclick="loginClk(lg)">Login</button>
-      <div class="lastLine">
-          <div class="first">
-            <input type="checkbox" name="chk" id="">
-            Remember Me
-          </div>
-          <div class="second">
-            Forgot Password?
-          </div>
-        </div>
     </div>
-    <div class="sUp" id="signUp1">
-      <i class="fas fa-window-close"  onclick="closeClk(signUp1)"></i>
-      <h2>CREATE ACCOUNT</h2>
-      <div class="name">
-        <div class="left">
-          <i class="fa fa-user" aria-hidden="true"></i>
-        </div>
-        <div class="right">
-          <input type="text" value="Username" id="supNm" onclick="sInClicked(supNm)">
-        </div>
+    <div class="pass" id="siPass">
+      <div class="left">
+        <i class="fa fa-lock" aria-hidden="true"></i>
       </div>
-      <div class="pass email">
-        <div class="left">
-          <i class="fa fa-envelope" aria-hidden="true"></i>
-        </div>
-        <div class="right">
-          <input type="text" value="Email" id="supEm" onclick="sInClicked(supEm)">
-        </div>
+      <div class="right">
+        <input type="password" value="Password" id="siPas">
+        <i class="fa fa-eye" id="sInEye1" aria-hidden="true" onclick="showE1()"></i>
+        <i class="fa fa-eye-slash" id="sInEye2" aria-hidden="true" onclick="showE2()"></i>
       </div>
-      <div class="pass password">
-        <div class="left">
-          <i class="fa fa-lock" aria-hidden="true"></i>
-        </div>
-        <div class="right">
-          <input type="text" value="Password" id="supPass" onclick="sInClicked(supPass)">
-          <i class="fa fa-eye" id="sUpEye1" aria-hidden="true" onclick="eyeClckd1()"></i>
-          <i class="fa fa-eye-slash" id="sUpCrEye1" aria-hidden="true" onclick="eyeClckd1()"></i>
+    </div>
+    <button class="sub" type="submit" id="lg" onclick="loginClk(lg)">Login</button>
+    <div class="lastLine">
+      <div class="first">
+        <input type="checkbox" name="chk" id="">
+        Remember Me
+      </div>
+      <div class="second">
+        Forgot Password?
+      </div>
+    </div>
+  </div>
+  <div class="sUp" id="signUp1">
+    <i class="fas fa-window-close" onclick="closeClk(signUp1)"></i>
+    <h2>CREATE ACCOUNT</h2>
+    <div class="name">
+      <div class="left">
+        <i class="fa fa-user" aria-hidden="true"></i>
+      </div>
+      <div class="right">
+        <input type="text" value="Username" id="supNm" onclick="sInClicked(supNm)">
+      </div>
+    </div>
+    <div class="pass email">
+      <div class="left">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+      </div>
+      <div class="right">
+        <input type="text" value="Email" id="supEm" onclick="sInClicked(supEm)">
+      </div>
+    </div>
+    <div class="pass password">
+      <div class="left">
+        <i class="fa fa-lock" aria-hidden="true"></i>
+      </div>
+      <div class="right">
+        <input type="text" value="Password" id="supPass" onclick="sInClicked(supPass)">
+        <i class="fa fa-eye" id="sUpEye1" aria-hidden="true" onclick="eyeClckd1()"></i>
+        <i class="fa fa-eye-slash" id="sUpCrEye1" aria-hidden="true" onclick="eyeClckd1()"></i>
 
-        </div>
       </div>
-      <div class="name confPass">
-        <div class="left">
-          <i class="fa-solid fa-key"></i>
-        </div>
-        <div class="right">
-          <input type="text" value="Confirm Password" id="supCnfPass" onclick="sInClicked(supCnfPass)">
-          <i class="fa fa-eye" id="sUpEye2" aria-hidden="true" onclick="eyeClckd2()"></i>
-          <i class="fa fa-eye-slash" id="sUpCrEye2" aria-hidden="true" onclick="eyeClckd2()"></i>
-        </div>
-      </div>
-      <button class="sub" type="submit" id="sUpBtn" onclick="sUClk()">Sign Up</button>
     </div>
-    <!-- Sign In/Sign Up form Ends -->
-    <script src="js/home.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+    <div class="name confPass">
+      <div class="left">
+        <i class="fa-solid fa-key"></i>
+      </div>
+      <div class="right">
+        <input type="text" value="Confirm Password" id="supCnfPass" onclick="sInClicked(supCnfPass)">
+        <i class="fa fa-eye" id="sUpEye2" aria-hidden="true" onclick="eyeClckd2()"></i>
+        <i class="fa fa-eye-slash" id="sUpCrEye2" aria-hidden="true" onclick="eyeClckd2()"></i>
+      </div>
+    </div>
+    <button class="sub" type="submit" id="sUpBtn" onclick="sUClk()">Sign Up</button>
+  </div>
+  <!-- Sign In/Sign Up form Ends -->
+  <script src="js/home.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
