@@ -199,9 +199,6 @@
     width: 100%;
     padding: 10px;
   }
-  /* .men_content4 .o {
-    grid-template-columns: 1fr 1fr;
-  } */
 
   /* ======================= WOMEN PAGE ========================= */
   .women_content2 {
@@ -211,7 +208,9 @@
     width: 90%;
   }
   .women_content3 {
-    width: 80%;
+    width: 100%;
+    padding: 20px;
+    height: auto;
   }
   .women_content3 .photo1 {
     width: 100%;
@@ -220,14 +219,7 @@
     width: 100%;
     padding: 10px;
   }
-  .women_content4 {
-    width: 100%;
-    padding: 10px;
-  }
-  .women_content4 .o {
-    grid-template-columns: 1fr 1fr;
-    margin: auto;
-  }
+
   .product_image {
     width: auto;
   }
@@ -261,7 +253,6 @@
     font-size: 15px;
     font-weight: 400;
   }
- 
 
   /* ======================= CONTACT PAGE ========================= */
   .contact_content4 {
@@ -271,7 +262,6 @@
   .form {
     width: 100%;
   }
-  
 
   /*---------------add to cart page--------------------------*/
   .cartContent {
@@ -324,26 +314,6 @@
     margin: 10px 65px;
   }
 
-  /* ---------- Sign In/Sign Up form -------- */
-  .sIn,
-  .sUp {
-    width: 360px;
-    height: auto;
-    top: 150px;
-    left: 70px;
-    margin: auto;
-  }
-  .sUp {
-    top: 100px;
-  }
-  .sIn .userSym,
-  .sUp .userSym {
-    left: 150px;
-  }
-  .sIn .left i,
-  .sUp .left i {
-    padding: 20px;
-  }
 
   /* ---- PreviewBox in responsive ------- */
   .products-preview {
@@ -351,51 +321,51 @@
     left: 0px;
     padding: 10px;
   }
-  .products-preview .fas{
+  .products-preview .fas {
     right: 20px;
     top: 10px;
   }
-  .products-preview .preview .content{
+  .products-preview .preview .content {
     width: 475px;
     height: 90vh;
   }
-  .products-preview .preview .content .left{
+  .products-preview .preview .content .left {
     width: 100%;
     margin: auto;
     height: 300px;
   }
-  .products-preview .preview .content .right{
+  .products-preview .preview .content .right {
     width: 100%;
     padding-top: 5px;
     margin: auto;
   }
-  .products-preview .preview .content .right h2{
+  .products-preview .preview .content .right h2 {
     font-size: 25px;
     margin: 2px 0px;
   }
-  .products-preview .preview .content .right .price{
+  .products-preview .preview .content .right .price {
     font-size: 20px;
     margin: 2px 0px;
   }
-  .products-preview .preview .content .right .cutPrice{
+  .products-preview .preview .content .right .cutPrice {
     font-size: 16px;
   }
-  .products-preview .preview .content .right .size{
-    margin:0px;
+  .products-preview .preview .content .right .size {
+    margin: 0px;
     /* text-align: left; */
   }
-  .products-preview .preview .content .right .size li{
+  .products-preview .preview .content .right .size li {
     padding: 20px;
     height: 50px;
     width: 50px;
     font-size: 14px;
   }
-  .products-preview .preview .content .right .addToCart{
+  .products-preview .preview .content .right .addToCart {
     width: 320px;
     margin: 5px auto;
     padding: 10px;
   }
-  .products-preview .preview .content .right .buyNow{
+  .products-preview .preview .content .right .buyNow {
     width: 320px;
     padding: 10px;
   }
@@ -408,18 +378,18 @@
 
 /* ------------------ 2nd time giving media queries -------------- */
 @media (max-width: 1000px) {
-  .subheader .search{
+  .subheader .search {
     display: none;
   }
-  
+
   .c {
     width: 70%;
     grid-template-columns: 1fr;
   }
-  .c .form{
+  .c .form {
     letter-spacing: 2px;
   }
-  .c .form h1{
+  .c .form h1 {
     font-size: 20px;
     margin: 5px;
   }
@@ -428,10 +398,7 @@
     grid-template-columns: 1fr;
     padding: 10px;
   }
-  /* .members .member .imgBack h3{
-    font-size: 16px !important;
-  } */
-  .men_content3{
+  .men_content3 {
     padding: 10px 30px;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -440,20 +407,28 @@
     width: 100%;
     padding: 10px;
   }
-  
+  .women_content3 {
+    padding: 10px 30px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .women_content3 .desc1 {
+    width: 100%;
+    padding: 10px;
+  }
 }
 
-@media (max-width: 1200px ) {
+@media (max-width: 1200px) {
   .members {
     grid-template-columns: 1fr 1fr;
   }
-  .members .member .imgBack h1{
+  .members .member .imgBack h1 {
     font-size: medium;
   }
-.members .member .imgBack h3{
-  font-size: 14px !important;
-}
-.teamgrid .h1 h1{
-  line-height: 30px !important;
-}
+  .members .member .imgBack h3 {
+    font-size: 14px !important;
+  }
+  .teamgrid .h1 h1 {
+    line-height: 30px !important;
+  }
 }

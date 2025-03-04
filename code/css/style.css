@@ -55,10 +55,6 @@ nav a{
   border-bottom: 2px solid white;
   padding: 2px 3px;
 }
-nav li{
-  /* border-left: 1px solid white; */
-  /* padding: 0px 5px; */
-}
 nav a:hover{
   background: grey;
 }
@@ -84,12 +80,6 @@ nav .navbar-toggler:hover{
   border: 2px solid lightgrey;
   padding-left: 10px;
 }
-/* .subheader .search i {
-  color: white;
-  background: #2fdab8;
-  padding: 17px;
-  transition: 1s;
-} */
 .subheader .search i:hover {
   background: black;
 }
@@ -120,10 +110,6 @@ nav .navbar-toggler:hover{
   left: -5px;
   font-size: 15px;
   color: #2fdab8;
-}
-.subheader .sharing {
-  /* width: 35%; */
-  /* letter-spacing: 4px; */
 }
 .subheader .sharing i {
   padding: 15px;
@@ -184,7 +170,6 @@ nav .navbar-toggler:hover{
   /* color: white; */
 }
 .menu-items .navbar-collapse li{
-  /* width: 150%; */
   margin: 0px 10px;
 }
 .menu-items .navbar-collapse li a{
@@ -1014,6 +999,36 @@ nav .navbar-toggler:hover{
 .men_content1 {
   background: url(../images/men_page/men_1.jpg);
   background-size: 100% 100%;
+  position: relative;
+  overflow: hidden;
+}
+.men_content1::before {
+  content: "";
+  background: rgba(211, 211, 211, 0.3);
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  height: 100%;
+  width: 100%;
+}
+.men_content1:hover::before {
+  top: 0%;
+  left: 0%;
+  transition: all 3s ease;
+}
+.men_content1::after {
+  content: "";
+  background: rgba(211, 211, 211, 0.3);
+  position: absolute;
+  bottom: -100%;
+  right: -100%;
+  height: 100%;
+  width: 100%;
+}
+.men_content1:hover::after {
+  bottom: 0%;
+  right: 0%;
+  transition: all 3s ease;
 }
 .men_content1 h1 {
   color: #fff;
@@ -1046,12 +1061,10 @@ nav .navbar-toggler:hover{
   width: 60%;
   margin: auto;
   display: flex;
-  /* flex-wrap: wrap; */
   padding: 20px 40px;
 }
 .men_content3 .photo1 {
   height: 350px;
-  /* width: 100%; */
   margin: 10px;
 }
 .men_content3 .desc1 {
@@ -1064,7 +1077,6 @@ nav .navbar-toggler:hover{
 }
 /*========men_content4==========*/
 .men_content4 {
-  /* padding: 30px; */
   padding: 20px 0px;
   width: 90%;
   margin: auto;  
@@ -1075,8 +1087,6 @@ nav .navbar-toggler:hover{
 
 /*--------------------------rotation and top-down---------*/
 .product_image {
-  /* height: 500px; */
-  width: 300px;
   background: white;
   box-shadow: 0px 0px 2px black;
 }
@@ -1131,12 +1141,11 @@ nav .navbar-toggler:hover{
   font-weight: 400;
   font-size: 20px;
 }
+.product_bottom{
+  padding-bottom: 12px;
+}
 .product_bottom li {
   display: inline-block;
-  /* margin-right: 35px;
-  margin-left: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px; */
   margin: auto;
   font-size: 20px;
   color: black;
@@ -1323,6 +1332,37 @@ strike {
 .women_content1 {
   background: url(../images/women_page/women_1.jpg);
   background-size: 100% 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.women_content1::before {
+  content: "";
+  background: rgba(211, 211, 211, 0.3);
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  height: 100%;
+  width: 100%;
+}
+.women_content1:hover::before {
+  top: 0%;
+  left: 0%;
+  transition: all 3s ease;
+}
+.women_content1::after {
+  content: "";
+  background: rgba(211, 211, 211, 0.3);
+  position: absolute;
+  bottom: -100%;
+  right: -100%;
+  height: 100%;
+  width: 100%;
+}
+.women_content1:hover::after {
+  bottom: 0%;
+  right: 0%;
+  transition: all 3s ease;
 }
 .women_content1 h1 {
   color: #fff;
@@ -1330,12 +1370,13 @@ strike {
   display: flex;
   justify-content: center;
   line-height: 400px;
+  font-weight: 600;
 }
 .women_content1 p {
   color: #2fdab8;
   display: inline-block;
   margin-left: 20px;
-  font-weight: 200;
+  font-weight: 500;  
 }
 /*========women_content2==========*/
 .women_content2 {
@@ -1351,36 +1392,36 @@ strike {
 .women_content3 {
   background: black;
   color: #fff;
-  width: 70%;
+  width: 60%;
   margin: auto;
   display: flex;
-  flex-wrap: wrap;
-  padding: 20px;
+  /* flex-wrap: wrap; */
+  padding: 20px 40px;
 }
 .women_content3 .photo1 {
-  width: 30%;
-  margin: 20px;
+  height: 350px;
+  /* width: 100%; */
+  margin: 10px;
+}
+.women_content3 .desc1 {
+  width: 60%;
+  padding: 10px;
 }
 .women_content3 p {
   display: inline;
   font-weight: 100;
 }
-.women_content3 h1 {
-  padding: 10px;
-  margin-bottom: 20px;
-}
-.women_content3 .desc1 {
-  width: 65%;
-}
 /*========women_content4==========*/
 .women_content4 {
-  padding: 30px;
+  /* padding: 30px; */
+  padding: 20px 0px;
+  width: 90%;
+  margin: auto;  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
-.women_content4 .o {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 20px 0px;
-}
+
 
 /*=========== Images grid women============*/
 /*Row-1*/
