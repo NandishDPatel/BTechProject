@@ -199,9 +199,9 @@
     width: 100%;
     padding: 10px;
   }
-  .men_content4 .o {
+  /* .men_content4 .o {
     grid-template-columns: 1fr 1fr;
-  }
+  } */
 
   /* ======================= WOMEN PAGE ========================= */
   .women_content2 {
@@ -431,6 +431,15 @@
   /* .members .member .imgBack h3{
     font-size: 16px !important;
   } */
+  .men_content3{
+    padding: 10px 30px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .men_content3 .desc1 {
+    width: 100%;
+    padding: 10px;
+  }
   
 }
 

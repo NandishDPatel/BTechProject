@@ -6,4 +6,7 @@
 
 => Footer: remaining for all pages
 
-- doing contact page =>
+- contact page => done
+- about page => done
+
+- doing men's page => work in progress
