@@ -52,74 +52,25 @@
     margin: auto;
   }
 
-  .banner {
-    width: 100%;
-  }
   .banner h1 {
-    width: 100%;
     margin: auto;
-    font-size: 25px;
+    font-size: 15px !important;
   }
   .banner h1 span {
-    font-size: 30px;
-  }
-  .banner .shopNow {
-    width: 20%;
+    font-size: 15px !important;
+    letter-spacing: 2px !important;
   }
 
-  .twoImages {
-    padding: 0px;
-  }
-  .twoImages a {
-    width: 100%;
-  }
-  .twoImages .img {
-    margin: 20px 0px;
-  }
-  .twoImages .img .newArrivals {
-    padding: 90px 10px 120px 150px;
+  .saveBanner .logos .logo h3 {
+    font-size: 15px !important;
   }
 
-  .saveBanner {
-    width: 100%;
-  }
-  .saveBanner .x {
-    width: 100%;
-  }
-  .saveBanner .information {
-    padding: 20px;
-  }
-
-  .trending .inside {
-    width: 100%;
-  }
-  .trending .inside .images .image1 {
-    height: 500px;
-    width: 450px;
-  }
-  .trending .inside .images .hidden {
-    padding: 120px 0px 50px 210px;
-  }
-  .trending .inside .images .image1 .hidden {
-    padding: 130px 20px 240px 180px;
-  }
-  .trending .inside .images .image2 {
-    width: 194%;
-  }
-  .trending .inside .images .image3 {
-    width: 194%;
-  }
-
-  .fullBanner {
-    width: 100%;
-    margin: 10px 0px;
-  }
-  .fullBanner .x {
-    width: 100%;
-    margin-bottom: 10px;
-  }
   .fullBanner .x .offer {
-    left: 20px;
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+  .icons {
+    grid-template-columns: 1fr !important;
   }
 
   .newArrivals {
@@ -141,29 +92,14 @@
   .backgroundClip .shopNow {
     width: 20%;
   }
-  .icons {
-    width: 100%;
-    margin: 20px 0px;
-  }
-  .icons .icon {
-    width: 90%;
-    margin-bottom: 9px;
-    height: 80px;
-  }
-  .icons .icon .symbol {
-    width: 80px;
-  }
-  .icons .icon .symbol i {
-    padding: 25px;
-  }
 
   /* ------------------ Comman Footer --------- */
 
-  .footer{
+  .footer {
     /* grid-template-columns: 1fr; */
     grid-template-rows: 1fr;
   }
- 
+
   /* ======================= MEN PAGE ========================= */
   .men_content2 {
     background-color: yellow;
@@ -249,9 +185,6 @@
   }
 
   /*---------------add to cart page--------------------------*/
- 
- 
-
 
   /* ---- PreviewBox in responsive ------- */
   .products-preview {
@@ -355,26 +288,26 @@
     padding: 10px;
   }
 
-  .cartContent .left .products .item .content{
+  .cartContent .left .products .item .content {
     display: grid;
     gap: 10px;
     margin-left: 10px;
   }
-  .cartContent .left .products .item .content .desc{
+  .cartContent .left .products .item .content .desc {
     gap: 5px;
-    margin-bottom: 5px;    
+    margin-bottom: 5px;
   }
-  .cartContent .left .products .item .content .desc .pName{
+  .cartContent .left .products .item .content .desc .pName {
     font-size: 20px !important;
   }
-  .cartContent .left .products .item .content .desc .stock{
+  .cartContent .left .products .item .content .desc .stock {
     font-size: 15px !important;
     border-bottom: none;
   }
 
-.footer{
-  grid-template-columns: 1fr 1fr;
-}
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
 
   .footer .eliteShoppy h1 {
     margin-bottom: 10px;
@@ -388,6 +321,125 @@
   .footer .posts .row .img {
     width: 33%;
     height: auto;
+  }
+
+  .banner h1 {
+    margin: auto;
+    font-size: 25px;
+  }
+  .banner h1 span {
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+  .banner .shopNow {
+    width: 100px;
+  }
+
+  .twoImages {
+    padding: 50px 100px;
+  }
+  .twoImages a {
+    width: 100%;
+  }
+  .twoImages .img {
+    margin: 20px 0px;
+  }
+  .twoImages .img .newArrivals {
+    padding: 90px 10px 120px 150px;
+  }
+
+  .saveBanner {
+    width: 100%;
+  }
+  .saveBanner .x {
+    width: 100%;
+  }
+  .saveBanner .logos .logo h3 {
+    font-size: 20px;
+  }
+  .saveBanner .information {
+    padding: 20px;
+  }
+
+  .trending .inside .images {
+    display: grid;
+    margin: 0px;
+  }
+  .trending .inside .images .leftSide {
+    width: 100%;
+  }
+  .trending .inside .images .x{
+    padding: 150px auto;
+  }
+  .trending .inside .images .image1 {
+    height: 500px;
+    /* width: 450px; */
+
+  }
+  .trending .inside .images .hidden {
+    padding: 120px 0px 50px 210px;
+  }
+  .trending .inside .images .image1 .hidden {
+    padding: 130px 20px 240px 180px;
+  }
+  .trending .inside .images .rightSide{
+    /* display: flex; */
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+  }
+
+
+  .fullBanner {
+    width: 100%;
+    margin: 0px;
+  }
+  .fullBanner .x {
+    width: 100%;
+    /* margin: 5px; */
+  }
+
+  .newArrivals .title {
+    gap: 5px;
+  }
+  .newArrivals .rows{
+    grid-template-columns: 1fr 1fr;
+  }
+  .newArrivals .title .section{
+    padding: 10px;
+  }
+
+  .backgroundClip h1 {
+    margin: 10px auto;
+  }
+  .backgroundClip .shopNow {
+    width: 120px;
+  }
+
+  .icons {
+    /* width: 100%; */
+    /* margin: 20px 0px; */
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+  }
+  .icons .icon {
+    /* width: 44%; */
+    margin-bottom: 10px;
+    /* height: 80px; */
+  }
+  .icons .icon .symbol {
+    width: 80px;
+  }
+  .icons .icon .symbol i {
+    padding: 25px;
+  }
+  .icons .info h3 {
+    margin: 3px 0px;
+  }
+  .icons .icon .info span {
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-weight: 300;
   }
 }
 

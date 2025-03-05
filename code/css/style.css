@@ -211,10 +211,10 @@ nav .navbar-toggler:hover{
 }
 /*------------Banner--------------*/
 .banner {
-  height: 500px;
+  height: 400px;
   text-align: center;
   position: relative;
-  padding-top: 150px;
+  padding-top: 50px;
 }
 .banner a {
   text-decoration: none;
@@ -249,7 +249,8 @@ nav .navbar-toggler:hover{
   justify-content: center;
   background: #2fdab8;
   line-height: 30px;
-  width: 8%;
+  width: 200px;
+  padding: 5px;
   color: #fff;
   margin: auto;
   position: relative;
@@ -369,7 +370,7 @@ nav .navbar-toggler:hover{
 }
 .saveBanner .logos .logo {
   margin: auto;
-  padding: 20px;
+  /* padding: 20px; */
 }
 .saveBanner .logos .logo i {
   color: #2fdab8;
@@ -401,12 +402,12 @@ nav .navbar-toggler:hover{
 }
 .trending .inside .header span {
   font-weight: 700;
-  margin-right: 30px;
+  color: #2fdab8;
+  margin-right: 15px;
 }
 .trending .inside .images {
-  padding: 10px;
   display: flex;
-  flex-wrap: wrap;
+ 
 }
 .trending .inside .images .image1 {
   background: url(../images/home_page/trending_1.jpg);
@@ -416,8 +417,7 @@ nav .navbar-toggler:hover{
   background-position: -20px 0px;
   transition: 2s;
   height: 600px;
-  width: 570px;
-  margin: 10px;
+  width: 650px;
 }
 .trending .inside .images .image1:hover {
   background-position: 0px 0px;
@@ -439,7 +439,7 @@ nav .navbar-toggler:hover{
 }
 .trending .inside .images .hidden {
   position: absolute;
-  padding: 130px 10px 50px 320px;
+  padding: 130px 50px 50px 450px;
   color: #fff;
   border: 5px solid #fff;
   letter-spacing: 10px;
@@ -452,11 +452,12 @@ nav .navbar-toggler:hover{
   opacity: 1;
 }
 .trending .inside .images .image1 .hidden {
-  padding: 130px 0px 370px 320px;
+  padding: 210px 10px 260px 400px;
 }
 .trending .inside .images .rightSide {
   height: 100%;
   width: 50%;
+  margin: auto;
 }
 .trending .inside .images .image2 {
   background: url(../images/home_page/trending_2.jpg);
@@ -492,7 +493,7 @@ nav .navbar-toggler:hover{
   margin: 50px 0px;
 }
 .fullBanner .x {
-  height: 400px;
+  /* height: 400px; */
   width: 50%;
   padding: 0px;
   margin: 0px;
@@ -531,9 +532,9 @@ nav .navbar-toggler:hover{
 .fullBanner .x .offer {
   font-size: 40px;
   letter-spacing: 10px;
-  position: absolute;
   line-height: 400px;
-  left: 200px;
+
+  text-align: center;
   color: #fff;
 }
 .fullBanner .x .offer a {
@@ -554,79 +555,117 @@ nav .navbar-toggler:hover{
 }
 /*----------- new arrivals section-------------*/
 .newArrivals {
-  margin: 10px auto;
-  text-align: center;
+  width: 90%;
+  margin: 20px auto;
 }
+
 .newArrivals .subheading {
-  font-size: 40px;
-  padding: 50px 0px;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 15px;
 }
+
 .newArrivals .subheading span {
-  font-weight: 800;
+  color: #2fdab8;
+  letter-spacing: 5px;
 }
+
 .newArrivals .title {
-  width: 80%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 10px auto;
-  line-height: 40px;
-  font-weight: 600;
-}
-.newArrivals .title a {
-  color: black;
-  text-decoration: none;
-}
-.newArrivals .title .section {
-  border: 2px solid;
-}
-.newArrivals .title .section:hover {
-  background: #2fdab8;
-}
-.newArrivals .row {
-  width: 80%;
-  margin-bottom: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: auto;
-}
-.newArrivals .row .section .image {
-  padding: 20px;
-  position: relative;
-  height: 80%;
-  background: #fff;
-  border: 1px solid;
-}
-.newArrivals .row .section .image:hover {
-  animation: rotation 4s linear infinite;
-}
-@keyframes rotation {
-  0% {
-    transform: rotateY(0deg);
-  }
-  50% {
-    transform: rotateY(360deg);
-  }
-  100% {
-    transform: rotateY(0deg);
-  }
-}
-.newArrivals .row .section .image .back {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  transform: rotateY(180deg);
-  border: 1px solid;
-}
-.newArrivals .row .section .footer {
+  display: flex;
   justify-content: center;
-  position: relative;
-  background: white;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.newArrivals .title a {
+  text-decoration: none;
+  color: black;
+}
+
+.newArrivals .title .section {
+  padding: 10px 20px;
   border: 2px solid black;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
 }
-.newArrivals .row .section .footer h3 {
-  color: #fc636b;
-  font-weight: 400;
+
+.newArrivals .title .section:hover {
+  background-color: #2fdab8;
+  color: white;
 }
+
+.newArrivals .rows {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.newArrivals .item {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  perspective: 1000px; /* Needed for 3D flip effect */
+}
+
+.newArrivals .item .image {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  transform-style: preserve-3d; /* Required for 3D flip */
+  transition: transform 0.8s ease; /* Smooth flip */
+}
+
+/* Front and back images */
+.newArrivals .item .image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Hide back when front is shown */
+}
+
+/* Back image initially flipped */
+.newArrivals .item .image .back {
+  transform: rotateY(180deg);
+}
+
+/* Flip effect on hover */
+.newArrivals .item:hover .image {
+  transform: rotateY(180deg);
+}
+
+/* Product Name */
+.newArrivals .item .footer {
+  background-color: #000;
+  border-top: 1px solid #ddd;
+  display: flex;
+  
+}
+.newArrivals .item .footer h3 {
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+  color: #2fdab8;
+  font-weight: 500;
+  width: 100%;
+}
+
+/* Optional: Add some shadow for better visual */
+.newArrivals .item {
+  transition: box-shadow 0.3s ease;
+}
+
+.newArrivals .item:hover {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
 /*--------- Background Clip Start -------------*/
 .backgroundClip {
   height: 300px;
@@ -674,54 +713,44 @@ nav .navbar-toggler:hover{
 /*------------ icons start ------------*/
 .icons {
   background: #fff;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 25px auto;
 }
 .icons .icon {
   border: 2px solid black;
-  height: 80px;
-  width: 22%;
-  margin: auto;
   display: flex;
+  align-items: center;
+  height: auto;
+  margin: 0px 10px;
+ 
 }
-.icons .icon .symbol {
-  position: relative;
+.icons .icon .symbol{
+  border-right: 2px solid black;
   background: #000;
-  width: 40%;
+  height: 100%;
 }
 .icons .icon .symbol i {
-  position: absolute;
   color: #fff;
-  padding: 30px;
+  padding: 25px;
   z-index: 2;
+  text-align: center;
 }
-.icons .icon .symbol .inside {
-  background: #2fdab8;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  transform: scale(0);
-  height: 100%;
-  width: 100%;
-  transition: 2s;
-}
-.icons .icon .symbol:hover .inside {
-  transform: scale(1);
-}
+
 .icons .icon .info {
+  width: 75%;
   padding-left: 20px;
 }
 .icons .info h3 {
   color: #2fdab8;
-  font-size: 15px;
-  margin: 8px 0px;
-  display: inline-block;
+  font-size: 14px;
+  margin: 3px;
+  display: inline;
 }
 .icons .icon .info span {
   font-size: 10px;
-  word-spacing: 5px;
-  letter-spacing: 2px;
+  word-spacing: 2px;
+  letter-spacing: 0px;
   font-weight: 600;
 }
 /*---------- Footer Starts -------------*/
