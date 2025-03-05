@@ -3,7 +3,7 @@
 
 - This is the final year b.tech project in which I have designed ecom website frontend with an aim to implement the UI/UX concepts learned in Human Computer Interaction subject and website is designed using HTML, CSS and Bootstrap with an aim to improve the add to cart conversion rates of the website.
 
-- Website:- https://ecom-34z.pages.dev/
+- Website:- https://nandishdpatel.github.io/BTechProject/
 
 ## Key Features
 
