@@ -727,26 +727,32 @@ nav .navbar-toggler:hover{
 /*---------- Footer Starts -------------*/
 .footer {
   background: black;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   color: white;
 }
 .footer .f {
-  width: 25%;
+  /* width: 25%; */
   padding: 20px;
 }
 .footer .eliteShoppy h1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .footer .eliteShoppy .fh span {
   background: #2fdab8;
   padding: 5px;
 }
+.footer .eliteShoppy .logos{
+  display: flex;
+  justify-items: start;
+  padding: 10px 0px;
+}
+.footer .eliteShoppy .logos ul{
+  padding: 10px;
+}
 .footer .eliteShoppy li {
   display: inline-block;
-  margin-right: 25px;
-  margin-top: 25px;
 }
 .footer .eliteShoppy li i:hover {
   color: #000;
@@ -773,8 +779,10 @@ nav .navbar-toggler:hover{
 }
 .footer h2 {
   font-size: 20px;
-  padding: 10px 0px;
-  margin-bottom: 20px;
+  padding: 5px;
+}
+.footer .information .list ul{
+  padding: 10px;
 }
 .footer .information .list li {
   padding: 5px 0px;
@@ -787,38 +795,22 @@ nav .navbar-toggler:hover{
 .footer .information .list a:hover {
   color: #2fdab8;
 }
-.footer .store .row {
-  display: flex;
+.footer .store .content{
+  margin: 10px;
+  align-items: start;
 }
-.footer .store .row .icon {
-  padding: 15px 20px;
-  justify-content: center;
-}
-.footer .store .row .content {
-  padding: 10px 0px;
-  padding-left: 10px;
-  margin-bottom: 10px;
-}
-.footer .store .row .content h3 {
-  margin-bottom: 10px;
-  font-weight: 400;
-  font-size: 15px;
-}
-.footer .store .row .info {
-  color: gray;
-  font-size: 15px;
-}
-.footer .store .row .content .info span {
-  color: #2fdab8;
-}
-.footer .posts .row {
+.footer .posts .icons{
   display: flex;
   flex-wrap: wrap;
+  margin: auto;
+  background: #000;
 }
-.footer .posts .row .img {
-  height: 100px;
-  width: 100px;
+.footer .posts .icons .img {
+  height: 80px;
+  width: 80px;
   padding: 5px;
+  /* margin: auto; */
+  gap: 5px;
 }
 /* ---- Go to Top ------------- */
 .goToTop {
@@ -1895,6 +1887,7 @@ strike {
   height: 400px;
   padding: 5px;
   padding-top: 20px;
+  border: 2px solid black;
 }
 .cartContent .right .promoCode .top {
   color: gray;
